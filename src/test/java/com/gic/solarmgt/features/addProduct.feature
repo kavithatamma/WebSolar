@@ -3,6 +3,7 @@ Feature: Verify Add Product feature
   I should be able to add Products.
 
   # AC1 : verify Product Add feature allows to add products when we provide valid product details.
+  # first scenario
 @addProducts
   Scenario: Verify Add Product feature with valid Product details
     Given I am on the Home page "http://solar.schoolnewgen.com/websolar/"
